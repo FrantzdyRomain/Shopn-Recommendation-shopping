@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DGActivityIndicatorView (2.0)
+  - FastEasyMapping (1.0.1)
+  - Google/Analytics (1.2.1):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (1.2.1):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - GoogleAnalytics (3.14.0)
+  - GoogleInterchangeUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.0.3)
+  - GoogleUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0.0)
+  - JSONModel (1.1.2)
+  - PinterestSDK (1.0):
+    - AFNetworking (~> 2.3)
+    - SSKeychain
+  - SSKeychain (1.2.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - DGActivityIndicatorView
+  - FastEasyMapping (~> 1.0)
+  - Google/Analytics
+  - JSONModel
+  - PinterestSDK (from `https://github.com/pinterest/ios-pdk.git`)
+
+EXTERNAL SOURCES:
+  PinterestSDK:
+    :git: https://github.com/pinterest/ios-pdk.git
+
+CHECKOUT OPTIONS:
+  PinterestSDK:
+    :commit: 6714af9c3f5613420ea34bb7ff787aa89bc45d3c
+    :git: https://github.com/pinterest/ios-pdk.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DGActivityIndicatorView: 52875b025a6ccf6a431a905285c12e2bb95eb559
+  FastEasyMapping: 8f0e89e1e26107370534e526c0d5f1fc9889912b
+  Google: fd33b5fa40fa3aaee5176de49c873a74e3d11dce
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleInterchangeUtilities: d7f7174176fbcf9710f696f1acebad4dbd98ac03
+  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
+  GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
+  GoogleUtilities: 8ed9134debe11719097881711464752900668f10
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  PinterestSDK: dacc554d7d5ef7110b8285e3cb6ecff4d5012a8c
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+
+COCOAPODS: 0.39.0

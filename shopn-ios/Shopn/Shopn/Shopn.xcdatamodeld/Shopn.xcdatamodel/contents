@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="Pins" syncable="YES">
+        <attribute name="pindesc" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Products" syncable="YES">
+        <attribute name="brandedName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clickUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productdescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retailername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salePriceLabel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Pins" positionX="-63" positionY="-18" width="128" height="30"/>
+        <element name="Products" positionX="-54" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>

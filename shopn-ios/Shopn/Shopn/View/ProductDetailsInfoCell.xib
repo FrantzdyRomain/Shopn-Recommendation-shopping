@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductDetailsInfoCell" rowHeight="180" id="KGk-i7-Jjw" customClass="ProductDetailsInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY0-dh-gPz">
+                        <rect key="frame" x="8" y="0.0" width="304" height="146"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                    </textView>
+                    <webView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="11F-Nn-DLF">
+                        <rect key="frame" x="8" y="8" width="304" height="163"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </webView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="mY0-dh-gPz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="42N-6T-9IK"/>
+                    <constraint firstAttribute="bottom" secondItem="mY0-dh-gPz" secondAttribute="bottom" constant="33" id="DIb-rl-qC0"/>
+                    <constraint firstItem="11F-Nn-DLF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Dwy-Xg-K1U"/>
+                    <constraint firstAttribute="bottom" secondItem="11F-Nn-DLF" secondAttribute="bottom" constant="8" id="EBN-G5-seo"/>
+                    <constraint firstItem="mY0-dh-gPz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="Lpp-tf-K1a"/>
+                    <constraint firstAttribute="trailing" secondItem="11F-Nn-DLF" secondAttribute="trailing" constant="8" id="MLk-la-Qsk"/>
+                    <constraint firstAttribute="trailing" secondItem="mY0-dh-gPz" secondAttribute="trailing" constant="8" id="On8-nQ-QnL"/>
+                    <constraint firstItem="11F-Nn-DLF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="jLy-Dw-97c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="textViewDetails" destination="mY0-dh-gPz" id="yoK-t3-zf9"/>
+                <outlet property="webviewForDetails" destination="11F-Nn-DLF" id="x5c-YR-wfW"/>
+            </connections>
+            <point key="canvasLocation" x="197" y="336"/>
+        </tableViewCell>
+    </objects>
+</document>

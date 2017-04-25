@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'shopn' do
+    
+pod 'Google/Analytics'
+pod 'DGActivityIndicatorView'
+pod "AFNetworking", "~> 2.0"
+pod 'JSONModel'
+pod 'FastEasyMapping', '~> 1.0'
+pod 'PinterestSDK', :git => 'https://github.com/pinterest/ios-pdk.git'
+
+end
+

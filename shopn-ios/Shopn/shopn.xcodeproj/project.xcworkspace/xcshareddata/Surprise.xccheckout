@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2296593F-650D-4DA5-A446-4DACE5F9201F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Surprise</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>483A48CCCFD5A633E26FE7EDB616BB9B25D0271B</key>
+		<string>https://bitbucket.org/fromain/surprise.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Surprise.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>483A48CCCFD5A633E26FE7EDB616BB9B25D0271B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/fromain/surprise.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>483A48CCCFD5A633E26FE7EDB616BB9B25D0271B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>483A48CCCFD5A633E26FE7EDB616BB9B25D0271B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Example</string>
+		</dict>
+	</array>
+</dict>
+</plist>

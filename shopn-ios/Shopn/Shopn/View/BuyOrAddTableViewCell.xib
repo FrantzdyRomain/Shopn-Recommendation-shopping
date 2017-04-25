@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BuyOrAddTableViewCell" rowHeight="18" id="KGk-i7-Jjw" customClass="BuyOrAddTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4au-WC-Shn">
+                        <rect key="frame" x="52" y="8" width="214" height="58"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.94588880529999997" green="0.088062890130000002" blue="0.65896094279999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                        <state key="normal" title="Buy"/>
+                    </button>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="4au-WC-Shn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="52" id="3Mg-mZ-qVT"/>
+                    <constraint firstItem="4au-WC-Shn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="6GM-nN-3xF"/>
+                    <constraint firstAttribute="bottom" secondItem="4au-WC-Shn" secondAttribute="bottom" constant="8" id="Ift-eE-GZj"/>
+                    <constraint firstAttribute="trailing" secondItem="4au-WC-Shn" secondAttribute="trailing" constant="51" id="LXP-0w-oI0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="btnBuy" destination="4au-WC-Shn" id="HbO-a8-Bdf"/>
+            </connections>
+            <point key="canvasLocation" x="411.5" y="243.5"/>
+        </tableViewCell>
+    </objects>
+</document>
